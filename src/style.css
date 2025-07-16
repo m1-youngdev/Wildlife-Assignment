@@ -1,3 +1,11 @@
 .img-container{
     width: 50%;
 }
+.link1{
+    text-decoration: none;
+    color: rgb(40, 40, 252);
+    margin: 40px 0px;
+}
+.card{
+    box-shadow: 0px 0px 5px rgb(156, 156, 156);
+}

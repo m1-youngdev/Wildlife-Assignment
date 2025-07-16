@@ -1,58 +1,189 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link href="./output.css" rel="stylesheet">
+    <link href="./output.css" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-</head>
-<body>
-    
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <div class="app m-0 max-w-screen">
-        
-        <div class="hero px-20 h-screen">
-            <nav class="flex justify-between py-5">
-                <h1 class="text-4xl font-medium">Jacob <span class="text-[#4343A9]">WildLife</span></h1>
-                <ul class="flex gap-5 justify-center items-center">
-                    <li> <a href="#">Home</a></li>
-                    <li><a href="#">Kids</a></li>
-                    <li><a href="#">Animal</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><button class="bg-black text-white text-sm w-24 h-10"><a href="#">Discover More</a></button></li>
-                    <li><a href="#">Login</a></li>
-                </ul>
-            </nav>
+      <div class="hero px-20 h-screen">
+        <nav class="flex justify-between py-5">
+          <h1 class="text-4xl font-medium font-[Montserrat]">
+            Jacob <span class="text-[#4343A9]">WildLife</span>
+          </h1>
+          <ul class="flex gap-5 justify-center items-center">
+            <li class="font-[Montserrat]"><a href="#">Home</a></li>
+            <li class="font-[Montserrat]"><a href="#">Kids</a></li>
+            <li class="font-[Montserrat]"><a href="#">Animal</a></li>
+            <li class="font-[Montserrat]"><a href="#">About</a></li>
+            <li>
+              <button class="bg-black text-white text-sm w-[110px] h-10 font-[Montserrat]">
+                <a href="#">Discover More</a>
+              </button>
+            </li>
+            <li><a href="#">Login</a></li>
+          </ul>
+        </nav>
 
-            <div class="py-24">
-                <h1 class="text-7xl font-bold mb-2.5">WildLife Reserve</h1>
-                <h3 class="text-4xl font-normal mb-2.5"> <span class="text-[#4343A9]">Keep Saving</span> All Animals</h3>
-                <p class="text-sm ">protect animals from poaching, protect the future of animal <br>
-                 as living things on earth.</p>
-            </div>
+        <div class="py-24">
+          <h1 class="text-7xl font-bold mb-2.5 font-[Montserrat]">WildLife Reserve</h1>
+          <h3 class="text-4xl font-normal mb-2.5 font-[Montserrat]">
+            <span class="text-[#4343A9]">Keep Saving</span> All Animals
+          </h3>
+          <p class="text-sm font-[Montserrat]">
+            protect animals from poaching, protect the future of animal <br />
+            as living things on earth.
+          </p>
+        </div>
+      </div>
+
+      <div class="second">
+        <div class="flex w-10/12 mb-[60px] h-[420px]">
+          <div class="img-container w-6/12">
+            <img
+              src="https://images.pexels.com/photos/2270848/pexels-photo-2270848.jpeg"
+              alt="lion img"
+              class="w-12/12 h-[420px]"
+            />
+          </div>
+          <div class="w-6/12 bg-[#374151] p-5">
+            <p class="text-white mt-28 font-[Montserrat]">1 - Wildlife Images</p>
+            <h2 class="font-bold text-3xl text-white font-[Montserrat]">
+              The Majestic Lion's Roar
+            </h2>
+            <p class="text-white mb-20 font-[Montserrat]">
+              Watch the king of the jungle showcase its dominance with a
+              powerful roar.
+            </p>
+            <button
+              class="w-20 h-10 bg-transparent border border-white text-white mr-2.5 font-[Montserrat]"
+            >
+              Prev
+            </button>
+            <button
+              class="w-20 h-10 bg-transparent border border-white text-white ml-2.5 font-[Montserrat]"
+            >
+              Next
+            </button>
+          </div>
         </div>
 
-        <div class="second">
-
-            <div class="flex w-10/12 mb-10">
-                <div class="img-container w-6/12"> <img src="https://images.pexels.com/photos/2270848/pexels-photo-2270848.jpeg" alt="lion img" class="w-12/12"></div>
-                <div class="w-6/12 bg-[#374151] p-5">
-                    <p class="text-white mt-28">1 - Wildlife Images</p>
-                    <h2 class="font-bold text-3xl text-white">The Majestic Lion's Roar</h2>
-                    <p class="text-white mb-20">Watch the king of the jungle showcase its dominance with a powerful roar.</p>
-                    <button class="w-20 h-10 bg-transparent border border-white text-white mr-2.5">Prev</button>
-                    <button class="w-20 h-10 bg-transparent border border-white text-white ml-2.5">Next</button>
-                </div>
+        <div class="w-9/12 m-auto mb-[40px]">
+          <div class="firstHalf flex h-[370px]">
+            <div
+              class="image bg-[url(https://res.cloudinary.com/dwmgepoeg/image/upload/v1752056980/pexels-photo-3691809_tdn8yp.jpg)] bg-cover bg-no-repeat w-6/12"
+            ></div>
+            <div class="text w-6/12 p-[60px] bg-[#374151]">
+              <p class="text-white mt-[40px] font-[Montserrat]">02- WildLife Trade</p>
+              <h2 class="font-bold text-3xl text-white font-[Montserrat]">
+                Elephant Ivory Trade
+              </h2>
+              <p class="text-white font-[Montserrat]">
+                Elephants are being hunted for their tusks, fueling the illegal
+                ivory trade. This practice threatens their population and
+                disrupts ecosystems.
+              </p>
+              <button
+                class="w-[120px] h-[50px] bg-[#4343A9] mt-[50px] text-white font-[Montserrat]"
+              >
+                Discover More
+              </button>
             </div>
-
-            <div class="">
-                
+          </div>
+          <div class="secondHalf flex h-[370px]">
+            <div class="text w-6/12 p-[60px] bg-[#374151]">
+              <p class="text-white mt-[40px] font-[Montserrat]">03 - Wildlife Trade Hotline</p>
+              <h2 class="font-bold text-3xl text-white font-[Montserrat]">
+                Elephant Rescued from Illegal Trade
+              </h2>
+              <p class="text-white font-[Montserrat]">
+                An elephant was saved from illegal poachers thanks to a tip-off
+                from the hotline. Authorities were able to intervene in time.
+              </p>
             </div>
+            <div
+              class="image bg-[url(https://res.cloudinary.com/dwmgepoeg/image/upload/v1752057132/pexels-photo-1003848_b6tykq.jpg)] bg-cover bg-no-repeat w-6/12"
+            ></div>
+          </div>
         </div>
+      </div>
+      <div class="third px-[160px] bg-[#F3F4F6] py-[60px]">
+        <h2 class="font-bold text-[32px] mb-[30px] font-[Montserrat]">Events</h2>
+        <div class="flex gap-[20px]">
+          <!-- card container  -->
+          <div class="card w-4/12 rounded-xl p-[20px] bg-[#FFFFFF]">
+            <!-- Card  -->
+            <h3 class="text-[24px] font-bold mb-[15px] font-[Montserrat]">
+              Saving the Endangered Rhino
+            </h3>
+            <p class="mb-[15px] font-[Montserrat]">
+              Explore the journey and challenges faced in protecting one of the
+              most endangered species on Earth.
+            </p>
+            <a href="#" class="link1 font-[Montserrat]">Read More</a>
+          </div>
+          <div class="card w-4/12 shadow rounded-xl p-[20px]">
+            <!-- Card  -->
+            <h3 class="text-[24px] font-bold mb-[15px] font-[Montserrat]">
+              The Journey of Migrating Elephants
+            </h3>
+            <p class="mb-[15px] font-[Montserrat]">
+              Learn about the incredible migration of elephants across Africa.
+            </p>
+            <a href="#" class="link1 font-[Montserrat]">Read More</a>
+          </div>
+          <div class="card w-4/12 shadow rounded-xl p-[20px]">
+            <!-- Card  -->
+            <h3 class="text-[24px] font-bold mb-[15px] font-[Montserrat]">
+              The Secret Life of Tigers
+            </h3>
+            <p class="mb-[15px] font-[Montserrat]">
+              An in-depth look into the behaviors and habits of wild tigers
+            </p>
+            <a href="#" class="link1 font-[Montserrat]">Read More</a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="bg-[#4343A9]">
+        <div class="flex justify-center px-[40px] py-[50px] gap-[20px]">
+          <div class="w-4/12">
+            <h3 class="text-[22px] font-bold mb-[10px] text-white font-[Montserrat]">About Us</h3>
+            <p class="mb-[10px] text-white font-[Montserrat]">
+              Dedicated to the conservation and protection of wildlife, our
+              reserve is a sanctuary for endangered species and a place to
+              experience nature's beauty.
+            </p>
+            <a href="#" class="text-white font-[Montserrat] hover:text-green-400 ">Learn More</a>
+          </div>
+          <div class="w-4/12 flex flex-col gap-[10px] items-center">
+            <h3 class="text-[22px] font-bold text-white font-[Montserrat]">Quick Links</h3>
+            <a href="#" class="text-white font-[Montserrat] hover:text-green-400">Plan Your Visits</a>
+            <a href="#" class="text-white font-[Montserrat] hover:text-green-400">Volunteer</a>
+            <a href="#" class="text-white font-[Montserrat] hover:text-green-400">Make a Donation</a>
+            <a href="#" class="text-white font-[Montserrat] hover:text-green-400">Upcoming Events</a>
+          </div>
+          <div class="w-4/12" >
+            <h3 class="text-[22px] font-bold mb-[10px] text-white font-[Montserrat]">Contact Us</h3>
+            <p class="mb-[10px] text-white font-[Montserrat]">Address: 123 Wildlife Avenue, Nature City, Earth. </p>
+            <p class="mb-[10px] text-white font-[Montserrat]">Email: contact@wildlifereserve.com</p>
+            <p class="text-white font-[Montserrat]">Phone: +123 456 7890</p>
+          </div>
+        </div>
+        <div class="py-[20px]">
+          <hr class="text-green-400 mb-[20px]">
+          <p class="text-center text-white mb-[10px] font-[Montserrat]">&copy;2024 Wildlife Reserve. All Rights Reserved.</p>
+          <p class="text-center"><a href="#" class="text-green-400 font-[Montserrat]">Privacy Policy </a><a href="#" class="text-green-400 font-[Montserrat]"> |Terms of Service</a></p>
+        </div>
+
+      </footer>
 
     </div>
-</body>
+  </body>
 </html>
