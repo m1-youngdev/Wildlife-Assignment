@@ -9,3 +9,10 @@
 .card{
     box-shadow: 0px 0px 5px rgb(156, 156, 156);
 }
+.image{
+    position: relative;
+}
+.imageDiv{
+    position: absolute;
+    bottom: 0px;
+}
